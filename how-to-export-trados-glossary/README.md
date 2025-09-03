@@ -1,53 +1,35 @@
-
-# 📘 Export a Bilingual Glossary from Trados Studio
+# 📘 How to Access Help in Trados Studio 2017
 
 ## Who this is for
-Translators and project managers who need to share a bilingual glossary created in **Trados Studio** with colleagues or clients.
+Translators who want to quickly find support, tutorials, or solutions while working in **Trados Studio 2017**.
 
-## What you need before you start
-- SDL Trados Studio installed on your computer  
-- An existing termbase or project with translation units you want to export  
-- Permission to save files to your computer
+## What you need
+- SDL Trados Studio 2017 installed  
+- Internet connection (for online resources)
 
 ## Steps
 
-1. **Open your project in Trados Studio.**  
-   Launch Trados and select the project that contains the glossary or termbase you want to export.
+1. **Open the Help ribbon**  
+   - At the top of the Trados window, click the **Help** tab.  
+   - This ribbon is available in all views.
 
-2. **Go to the Termbase view.**  
-   In the top ribbon, click **Termbase** (sometimes called **Terminology**). This opens the termbase connected to your project.
+2. **Choose a help option**  
+   - **Studio Blog** → Articles and tips about using Trados.  
+   - **Knowledge Base (KB)** → FAQs and troubleshooting guides.  
+   - **SDL Community** → Online discussion forum with other users.  
+   - **Customer Feedback** → Send feedback directly to SDL.  
+   - **Contact Support** → Open the SDL TranslationZone support page.
 
-3. **Select the termbase.**  
-   In the left panel, highlight the termbase you want to export.
-
-4. **Start the export.**  
-   From the top menu, choose **Termbase Management → Export**.
-
-5. **Choose the export format.**  
-   - Select **TBX** (TermBase eXchange) if you want a format most CAT tools can read.  
-   - Select **CSV** if you prefer a spreadsheet format (openable in Excel).  
-   - Select **XML** if the glossary will be imported into another Trados project.
-
-6. **Select the fields to include.**  
-   A dialog will let you choose which fields (Source term, Target term, Notes, etc.) you want in the exported file. Tick the boxes you need.
-
-7. **Save the file.**  
-   - Click **Browse…** to choose a folder.  
-   - Type a file name (e.g., `Glossary_DE-EN.tbx`).  
-   - Click **Save → OK**.
+3. **Download resources**  
+   - From the SDL TranslationZone, go to **Learn & Support → Downloads**.  
+   - There you’ll find guides, updates, and additional tools.
 
 ## Result
-You now have a bilingual glossary file (TBX, CSV, or XML) saved on your computer, ready to share with colleagues or import into other tools.
+You can now access official documentation, community forums, and SDL support directly from within Trados.
 
 ## If things go wrong
-- **I can’t see “Termbase Management.”**  
-  → Make sure the termbase is attached to your project. Go to **Project Settings → Language Pairs → Termbases** and add it.  
-
-- **The exported file is empty.**  
-  → Check that the termbase actually contains entries. Open it inside Trados to confirm.  
-
-- **The recipient can’t open the file.**  
-  → Try exporting to a more universal format (CSV is usually safest).
+- **The Help ribbon doesn’t appear:** Make sure you are on the latest service pack for Trados Studio 2017.  
+- **Links don’t open:** Check your internet connection or try opening them in a separate browser.  
 
 ---
 
