@@ -23,9 +23,10 @@ This portfolio shows how I approach **clear, structured documentation**:
 ---
 
 ## 📚 Samples so far
-- [How-To: Export a bilingual glossary from Trados](how-to-export-trados-glossary/README.md)  
-- [Getting Started with Trados Studio 2017](trados-getting-started/README.md)
-- 
+- [📘 How to Access Help in Trados Studio 2017](how-to-access-help/README.md)
+- [⚡ Quick Start: Trados Studio 2017](trados-getting-started/quick-start.md)
+- [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md)
+- [🔧 Troubleshooting: Trados Studio 2017](trados-getting-started/troubleshooting.md)
 
 
 ---
