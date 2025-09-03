@@ -24,7 +24,9 @@ This portfolio shows how I approach **clear, structured documentation**:
 
 ## 📚 Samples so far
 - [How-To: Export a bilingual glossary from Trados](how-to-export-trados-glossary/README.md)  
-- *(More coming soon!)*  
+- [Getting Started with Trados Studio 2017](trados-getting-started/README.md)
+- 
+
 
 ---
 
