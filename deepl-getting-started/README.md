@@ -11,7 +11,7 @@ It is designed for translators who want to use DeepL efficiently without needing
 ## 📂 What’s inside
 - [⚡ Quick Start](quick-start.md) — Translate text and documents in 5 steps  
 - [📘 How-To: Create and Use a Glossary](how-to-use-glossaries.md) — Control your terminology  
-- [🔧 Troubleshooting](troubleshooting.md) — Common problems and fixes *(coming soon)*
+- [🔧 Troubleshooting](troubleshooting.md) — Common problems and fixes 
 
 ---
 
