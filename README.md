@@ -6,9 +6,12 @@ I’m building this portfolio as I transition from professional **translation** 
 ---
 
 ## 📂 What you’ll find here
-- **How-To Guides** — step-by-step instructions for common tasks  
-- **Quick Starts** — short guides for first-time users  
-- **Troubleshooting Docs** — common problems and their solutions  
+- [🌐 DeepL — Getting Started](deepl-getting-started/README.md)  
+  Basics of using DeepL web app (Quick Start, Glossary, Troubleshooting).  
+
+- [🖋️ Trados Studio 2017 — Getting Started](trados-getting-started/README.md)  
+  Mini-doc set for new translators (Quick Start, How-To, Troubleshooting, Help).  
+
 
 Each document lives in its own folder with a `README.md` and, where helpful, screenshots.
 
