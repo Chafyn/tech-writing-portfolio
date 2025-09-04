@@ -27,7 +27,8 @@ I will continue adding:
 - Quick start guides for different tools  
 - Troubleshooting documents  
 - Reference-style docs (tables, glossaries, comparisons)  
-- A mini style guide for consistency  
+- [📝 Mini Style Guide](style-guide.md) to ensure consistency across all docs
+
 
 ---
 
