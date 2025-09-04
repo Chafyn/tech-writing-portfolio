@@ -26,14 +26,19 @@ This portfolio shows how I approach **clear, structured documentation**:
 ---
 
 ## 📚 Samples so far
-- [📘 How to Access Help in Trados Studio 2017](how-to-access-help/README.md)
-- [⚡ Quick Start: Trados Studio 2017](trados-getting-started/quick-start.md)
-- [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md)
-- [🔧 Troubleshooting: Trados Studio 2017](trados-getting-started/troubleshooting.md)
-- [⚡ Quick Start: DeepL (Web App)](deepl-getting-started/quick-start.md)
-- [📘 How-To: Create Glossaries](deepl-getting-started/how-to-use-glossaries.md)
-- [🔧 Troubleshooting: DeepL (Web App)](deepl-getting-started/troubleshooting.md)
+### Trados Studio 2017
+- [📘 How to Access Help](how-to-access-help/README.md) — Find resources and support in Trados
+- [⚡ Quick Start](trados-getting-started/quick-start.md) — Create your first project in minutes
+- [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md) — Step-by-step project setup
+- [🔧 Troubleshooting](trados-getting-started/troubleshooting.md) — Fix common Trados issues
+- [⌨️ Keyboard Shortcuts](trados-getting-started/keyboard-shortcuts.md) — Quick reference for common actions
 
+
+### DeeL (Web App) 
+- [⚡ Quick Start](deepl-getting-started/quick-start.md) — Translate text and documents in 5 steps
+- [📘 How-To: Create Glossaries](deepl-getting-started/how-to-use-glossaries.md) — Control terminology with custom entries
+- [🔧 Troubleshooting](deepl-getting-started/troubleshooting.md) — Solve login, file, and glossary issues
+- [📘 Glossary Limits](deepl-getting-started/glossary-limits.md) — Free vs Pro comparison
 
 ---
 
