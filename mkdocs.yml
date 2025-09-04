@@ -1,0 +1,36 @@
+site_name: Tech Writing Portfolio
+site_description: Documentation samples by Chafyn H
+site_url: https://ChafynH.github.io/tech-writing-portfolio/
+repo_url: https://github.com/ChafynH/tech-writing-portfolio
+repo_name: ChafynH/tech-writing-portfolio
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Trados — Getting Started:
+      - Overview: trados-getting-started/README.md
+      - Quick start: trados-getting-started/quick-start.md
+      - Create a project: trados-getting-started/how-to-create-project.md
+      - Troubleshooting: trados-getting-started/troubleshooting.md
+      - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
+  - DeepL — Getting Started:
+      - Overview: deepl-getting-started/README.md
+      - Quick start: deepl-getting-started/quick-start.md
+      - Use glossaries: deepl-getting-started/how-to-use-glossaries.md
+      - Troubleshooting: deepl-getting-started/troubleshooting.md
+      - Glossary limits: deepl-getting-started/glossary-limits.md
+  - Style guide: style-guide.md
+  - Changelog: changelog.md
+
+docs_dir: docs
+plugins:
+  - search
