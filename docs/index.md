@@ -13,7 +13,7 @@ I am building this portfolio as I transition from professional **translation** (
 ## 📚 Samples so far
 
 ### 🖋️ Trados Studio 2017 — Getting Started
-- [📘 How to Access Help](how-to-access-help/help-guide.md) — Find resources and support in Trados
+- [📘 How to Access Help](trados-getting-started/help-guide.md) — Find resources and support in Trados
 - [⚡ Quick Start](trados-getting-started/quick-start.md) — Create your first project in minutes
 - [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md) — Step-by-step project setup
 - [🔧 Troubleshooting](trados-getting-started/troubleshooting.md) — Fix common Trados issues
