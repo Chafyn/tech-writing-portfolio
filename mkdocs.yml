@@ -19,9 +19,11 @@ nav:
   - Trados — Getting Started:
       - Overview: trados-getting-started/README.md
       - Quick start: trados-getting-started/quick-start.md
+      - Access help: trados-getting-started/help-guide.md
       - Create a project: trados-getting-started/how-to-create-project.md
       - Troubleshooting: trados-getting-started/troubleshooting.md
       - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
+      
   - DeepL — Getting Started:
       - Overview: deepl-getting-started/README.md
       - Quick start: deepl-getting-started/quick-start.md
