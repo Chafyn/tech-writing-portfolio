@@ -27,6 +27,9 @@ This portfolio shows how I approach **clear, structured documentation**:
 - [⚡ Quick Start: Trados Studio 2017](trados-getting-started/quick-start.md)
 - [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md)
 - [🔧 Troubleshooting: Trados Studio 2017](trados-getting-started/troubleshooting.md)
+- [⚡ Quick Start: DeepL (Web App)](deepl-getting-started/quick-start.md)
+- [📘 How-To: Create Glossaries](deel-getting-started/how-to-use-glossaries.md)
+- [🔧 Troubleshooting: DeepL](deel-getting-started/troubleshooting.md)
 
 
 ---
