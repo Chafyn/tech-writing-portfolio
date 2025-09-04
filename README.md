@@ -3,6 +3,9 @@
 Welcome! This repository contains a selection of my **technical writing samples**.  
 I am building this portfolio as I transition from professional **translation** (German & Spanish → English) into **technical writing**.  
 
+[![Changelog](https://img.shields.io/badge/docs-changelog-blue)](changelog.md)
+[![Style Guide](https://img.shields.io/badge/docs-style--guide-green)](style-guide.md)
+
 ---
 
 ## 📚 Samples so far
