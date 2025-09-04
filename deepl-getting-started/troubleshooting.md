@@ -5,6 +5,7 @@ Common problems when using the free DeepL translator in a browser, and how to so
 ---
 
 ## 1) I can’t log in
+
 **Cause:** Wrong password or using Google/Apple login without linking it to a DeepL account.  
 **Fix:**  
 - Reset your password at [https://www.deepl.com/account/reset-password](https://www.deepl.com/account/reset-password).  
@@ -13,6 +14,7 @@ Common problems when using the free DeepL translator in a browser, and how to so
 ---
 
 ## 2) My file won’t upload
+
 **Cause:** DeepL free supports only **Word (.docx)** and **PowerPoint (.pptx)**.  
 **Fix:**  
 - Convert your file to `.docx` or `.pptx` before uploading.  
@@ -21,6 +23,7 @@ Common problems when using the free DeepL translator in a browser, and how to so
 ---
 
 ## 3) The file is too large
+
 **Cause:** Free accounts have a size limit per document.  
 **Fix:**  
 - Split the document into smaller sections.  
@@ -30,6 +33,7 @@ Common problems when using the free DeepL translator in a browser, and how to so
 ---
 
 ## 4) Glossary doesn’t apply
+
 **Cause:** Glossaries work only for supported language pairs (e.g., EN–DE, EN–FR).  
 **Fix:**  
 - Check that your source/target pair supports glossaries.  
@@ -39,6 +43,7 @@ Common problems when using the free DeepL translator in a browser, and how to so
 ---
 
 ## 5) The translation is missing formatting
+
 **Cause:** DeepL sometimes strips complex formatting.  
 **Fix:**  
 - Simplify the original file before uploading.  
