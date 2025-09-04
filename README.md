@@ -27,9 +27,14 @@ I will continue adding:
 - Quick start guides for different tools  
 - Troubleshooting documents  
 - Reference-style docs (tables, glossaries, comparisons)  
-- [📝 Mini Style Guide](style-guide.md) to ensure consistency across all docs
+
+
+---
+📖 For writing rules, see the [Mini Style Guide](style-guide.md).  
+🕑 For update history, see the [Changelog](changelog.md).
+
 
 
 ---
 
-📫 **Contact:** [your email or LinkedIn link here]
+📫 **Contact:** [chafyn@gmail.com]
