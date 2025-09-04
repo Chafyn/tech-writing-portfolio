@@ -5,7 +5,7 @@ I am building this portfolio as I transition from professional **translation** (
 
 [![Changelog](https://img.shields.io/badge/docs-changelog-blue)](changelog.md)
 [![Style Guide](https://img.shields.io/badge/docs-style--guide-green)](style-guide.md)
-![Last Commit](https://img.shields.io/github/last-commit/YourUsername/tech-writing-portfolio?color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/Chafyn/tech-writing-portfolio?color=orange)
 
 
 ---
