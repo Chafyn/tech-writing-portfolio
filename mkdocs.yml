@@ -16,16 +16,16 @@ theme:
 
 nav:
   - Home: index.md
+  - About: about.md
   - Trados — Getting Started:
-      - Overview: trados-getting-started/README.md
+      - Overview: trados-getting-started/index.md
       - Quick start: trados-getting-started/quick-start.md
       - Access help: trados-getting-started/help-guide.md
       - Create a project: trados-getting-started/how-to-create-project.md
       - Troubleshooting: trados-getting-started/troubleshooting.md
       - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
-      
   - DeepL — Getting Started:
-      - Overview: deepl-getting-started/README.md
+      - Overview: deepl-getting-started/index.md
       - Quick start: deepl-getting-started/quick-start.md
       - Use glossaries: deepl-getting-started/how-to-use-glossaries.md
       - Troubleshooting: deepl-getting-started/troubleshooting.md

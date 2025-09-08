@@ -13,6 +13,7 @@ I am building this portfolio as I transition from professional **translation** (
 ## 📚 Samples so far
 
 ### 🖋️ Trados Studio 2017 — Getting Started
+- [Overview](trados-getting-started/index.md)
 - [📘 How to Access Help](trados-getting-started/help-guide.md) — Find resources and support in Trados
 - [⚡ Quick Start](trados-getting-started/quick-start.md) — Create your first project in minutes
 - [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md) — Step-by-step project setup
@@ -20,6 +21,7 @@ I am building this portfolio as I transition from professional **translation** (
 - [⌨️ Keyboard Shortcuts](trados-getting-started/keyboard-shortcuts.md) — Quick reference for common actions
 
 ### 🌐 DeepL (Web App) — Getting Started
+- [Overview](deepl-getting-started/index.md)
 - [⚡ Quick Start](deepl-getting-started/quick-start.md) — Translate text and documents in 5 steps
 - [📘 How-To: Create Glossaries](deepl-getting-started/how-to-use-glossaries.md) — Control terminology with custom entries
 - [🔧 Troubleshooting](deepl-getting-started/troubleshooting.md) — Solve login, file, and glossary issues
@@ -42,4 +44,4 @@ I will continue adding:
 
 ---
 
-📫 **Contact:** [chafyn@gmail.com]
+📫 **Contact:** [chafyn@gmail.com](mailto:chafyn@gmail.com)
