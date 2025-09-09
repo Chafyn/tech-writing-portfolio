@@ -18,6 +18,7 @@ When Trados opens, you land on the **Home** tab in the **Projects** view.
       ![Home tab showing the Get Started area with Drag files for translation](../assets/images/trados/home-get-started-drag.png){ width="900" }
       <figcaption>Use <b>Drag files for translation</b> or click <b>browse</b> to choose files.</figcaption>
     </figure>
+If your menus aren’t in English, see [Change the UI language](help-guide.md#ui-language).
 
 ## Step 2 — Create your first project
 

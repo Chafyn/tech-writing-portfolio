@@ -12,6 +12,10 @@ Translators who want to quickly find support, tutorials, or solutions while work
 1. **Open the Help ribbon**  
    - At the top of the Trados window, click the **Help** tab.  
    - This ribbon is available in all views.
+   <figure markdown>
+  ![Help tab open with Knowledge Base, Community and Support options](../assets/images/trados/help-ribbon.png){ width="900" }
+  <figcaption><b>Help</b> tab — links out to Knowledge Base, Community, and Support.</figcaption>
+</figure>
 
 2. **Choose a help option**  
    - **Studio Blog** → Articles and tips about using Trados.  
@@ -23,6 +27,14 @@ Translators who want to quickly find support, tutorials, or solutions while work
 3. **Download resources**  
    - From the SDL TranslationZone, go to **Learn & Support → Downloads**.  
    - There you’ll find guides, updates, and additional tools.
+### Change the UI language {#ui-language}
+
+If your Trados menus are not in English, switch the **User interface language**:
+
+<figure markdown>
+  ![View tab with User interface language dropdown set to English](../assets/images/trados/view-ui-language.png){ width="900" }
+  <figcaption><b>View → User interface language</b> — select <b>English</b>, then restart Trados when prompted.</figcaption>
+</figure>
 
 ## Result
 You can now access official documentation, community forums, and SDL support directly from within Trados.
