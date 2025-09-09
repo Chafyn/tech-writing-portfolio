@@ -1,45 +1,51 @@
-# 📘 How-To: Create and Use a Glossary in DeepL (Web App)
+# 📘 How to Use Glossaries (DeepL Web)
 
-Glossaries let you control how specific terms are translated, ensuring consistency.
-
-## Who this is for
-Translators who want to enforce preferred terminology in their DeepL translations.
+Control terminology across your translations.
 
 ## What you need
-- A free DeepL account (login required)  
-- DeepL web app in your browser  
-- Source and target languages supported by glossaries  
-  (e.g., English ↔ German, English ↔ French)
+- DeepL account (Free or Pro)
+- Terms to enforce (e.g., product names)
 
-## Steps
+## 1) Open the Glossary
 
-1. **Log in to DeepL**  
-   Go to [https://www.deepl.com/translator](https://www.deepl.com/translator) and sign in.
+1. In the DeepL interface, open **Glossary** (top bar).
+2. Choose a language pair for the glossary.
 
-2. **Open glossary settings**  
-   - In the top bar, click **Glossary**.  
-   - Select **Create glossary**.
+<figure markdown>
+  ![DeepL glossary dialog showing term and translation fields](../assets/images/deepl/deepl-glossary-dialog.png){ width="900" }
+  <figcaption><b>Glossary</b> — add terms and translations, then <b>Save</b>.</figcaption>
+</figure>
 
-3. **Add a term pair**  
-   - Enter the **source term** (e.g., *car*).  
-   - Enter the **preferred translation** (e.g., *Automobil*).  
-   - Click **Add**.
+## 2) Create or select a glossary
 
-4. **Check your glossary**  
-   Your glossary list now shows the new entry.  
-   Free accounts allow up to 10 entries in one glossary.
+- Click **New glossary** (name it), or select an existing one.
+- Keep one glossary per language pair for clarity.
 
-5. **Use the glossary**  
-   - Translate text as usual.  
-   - When the source term appears, DeepL automatically applies your glossary translation.
+## 3) Add entries
+
+1. Enter **Term** (source) and **Translation** (target).
+2. Click **Save** to add each pair.
+3. Repeat for all key terms.
+
+!!! tip
+    Use consistent **capitalization** and **singular/plural**. Add both forms if needed (e.g., “glossary” and “glossaries”).
+
+## 4) Apply the glossary
+
+- Make sure the glossary is **selected/active** when translating.
+- Type or paste text — terms should follow your glossary.
+- For files, the glossary applies when it’s active at upload time.
+
+<!-- Optional screenshot; uncomment when you add it:
+<figure markdown>
+  ![DeepL translation pane showing an active glossary selection](../assets/images/deepl/deepl-glossary-apply.png){ width="900" }
+  <figcaption><b>Apply glossary</b> — ensure the glossary is selected so terms are enforced.</figcaption>
+</figure>
+-->
 
 ## Result
-Your translations now follow your glossary rules, improving consistency and control.
+Your translations follow your approved terminology.
 
-## If things go wrong
-- **Glossary doesn’t apply:** Make sure the source and target language pair supports glossaries.  
-- **Can’t add more entries:** Free plan allows only 10 entries. Delete one to add another.  
-- **Glossary option not visible:** Ensure you are logged in with a registered DeepL account.
-
----
-*Last updated: 3 Sept 2025*
+**See also:**  
+- [Quick Start](quick-start.md)  
+- [Glossary limits](glossary-limits.md)

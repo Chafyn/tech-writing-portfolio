@@ -1,38 +1,36 @@
-# ⚡ Quick Start: Translate with DeepL (Web App)
+# ⚡ Quick Start: DeepL (Web)
 
-Get started with DeepL in just a few minutes — no installation required.
+Translate text or files in minutes.
 
-## Who this is for
-Translators and writers who want to translate short texts or documents directly in the browser.
+## Step 1 — Open DeepL
 
-## What you need
-- A free DeepL account (optional but recommended)  
-- A web browser (Chrome, Edge, Firefox, or Safari)  
-- Internet connection
+Go to **DeepL** and sign in (if you have a Pro account).
 
-## Steps
+<figure markdown>
+  ![DeepL home with text box and Translate files button](../assets/images/deepl/deepl-home.png){ width="900" }
+  <figcaption>Start by typing text or click <b>Translate files</b> to upload a document.</figcaption>
+</figure>
 
-1. **Open DeepL in your browser**  
-   Go to [https://www.deepl.com/translator](https://www.deepl.com/translator).
+## Step 2 — Translate text
 
-2. **Type or paste text**  
-   Enter your text in the **left box** (source language).
+1. Paste or type your text on the **left**.
+2. Choose the **target language** on the right.
+3. Copy or download the result.
 
-3. **Choose languages**  
-   - On the left: select your **source language** (or let DeepL detect it automatically).  
-   - On the right: choose your **target language**.
+!!! tip
+    For consistent terms, use a **Glossary**. See [How to use glossaries](how-to-use-glossaries.md).
 
-4. **View the translation**  
-   DeepL displays the translated text in the **right box** instantly.
+## Step 3 — Translate a file
 
-5. **Translate a document**  
-   - Click **Translate files** below the input box.  
-   - Upload a Word (`.docx`) or PowerPoint (`.pptx`) file.  
-   - Download the translated document once ready.
+1. Click **Translate files** on the home screen.
+2. Choose your **target language**.
+3. Select your document (e.g., `.docx`, `.pptx`, `.pdf`).
+4. Download the translated file.
 
 ## Result
-You’ve successfully translated text or documents using the free DeepL web app.
+You’ve translated text or documents.  
+Next, add a glossary to control terminology.
 
----
-*Last updated: 3 Sept 2025*
-
+**See also:**  
+- [How to use glossaries](how-to-use-glossaries.md)  
+- [Glossary limits](glossary-limits.md)
