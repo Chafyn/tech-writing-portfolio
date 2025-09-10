@@ -1,47 +1,43 @@
-# 🖋️ Technical Writing Portfolio
+# 📝 Technical Writing Portfolio
 
-Welcome! This repository contains a selection of my **technical writing samples**.  
-I am building this portfolio as I transition from professional **translation** (German & Spanish → English) into **technical writing**.  
-
-[![Changelog](https://img.shields.io/badge/docs-changelog-blue)](changelog.md)
-[![Style Guide](https://img.shields.io/badge/docs-style--guide-green)](style-guide.md)
-![Last Commit](https://img.shields.io/github/last-commit/Chafyn/tech-writing-portfolio?color=orange)
-
+Welcome!  
+This site showcases my work in **technical writing, software documentation, and translation**.  
+Here you’ll find examples of **user guides**, **getting-started tutorials**, and **translation-related projects**.
 
 ---
 
-## 📚 Samples so far
+## 📚 Featured Guides
 
-### 🖋️ Trados Studio 2017 — Getting Started
-- [Overview](trados-getting-started/index.md)
-- [📘 How to Access Help](trados-getting-started/help-guide.md) — Find resources and support in Trados
-- [⚡ Quick Start](trados-getting-started/quick-start.md) — Create your first project in minutes
-- [📘 How-To: Create a Project](trados-getting-started/how-to-create-project.md) — Step-by-step project setup
-- [🔧 Troubleshooting](trados-getting-started/troubleshooting.md) — Fix common Trados issues
-- [⌨️ Keyboard Shortcuts](trados-getting-started/keyboard-shortcuts.md) — Quick reference for common actions
+- **[Installing VLC Media Player](guides/vlc-installation.md)**  
+  Step-by-step guide for downloading and installing VLC Media Player on Windows.  
 
-### 🌐 DeepL (Web App) — Getting Started
-- [Overview](deepl-getting-started/index.md)
-- [⚡ Quick Start](deepl-getting-started/quick-start.md) — Translate text and documents in 5 steps
-- [📘 How-To: Create Glossaries](deepl-getting-started/how-to-use-glossaries.md) — Control terminology with custom entries
-- [🔧 Troubleshooting](deepl-getting-started/troubleshooting.md) — Solve login, file, and glossary issues
-- [📘 Glossary Limits](deepl-getting-started/glossary-limits.md) — Compare features of Free vs Pro plans
+- **[Trados — Getting Started](trados-getting-started/index.md)**  
+  A beginner-friendly guide for setting up and using SDL Trados Studio.  
+
+- **[DeepL — Getting Started](deepl-getting-started/index.md)**  
+  A quick-start guide for translating text and files with DeepL.  
 
 ---
 
-## 🌱 Next steps
-I will continue adding:
-- Quick start guides for different tools  
-- Troubleshooting documents  
-- Reference-style docs (tables, glossaries, comparisons)  
+## 👤 About Me
 
+I’m **Chafyn Hörnecke**, an aspiring **technical translator and software documentation specialist**.  
+I enjoy combining language skills with technical knowledge to create **clear, structured, and user-friendly documentation**.  
 
----
-📖 For writing rules, see the [Mini Style Guide](style-guide.md).  
-🕑 For update history, see the [Changelog](changelog.md).
-
-
+I am currently developing my expertise in:
+- Technical writing and user guide creation  
+- Software localization and translation workflows  
+- Documentation using GitHub and doc-as-code tools (MkDocs, Markdown)  
 
 ---
 
-📫 **Contact:** [chafyn@gmail.com](mailto:chafyn@gmail.com)
+## 📫 Contact
+
+I’d be happy to connect with colleagues, potential clients, and anyone interested in technical writing and translation.  
+Feel free to reach out if you’d like to collaborate, discuss projects, or learn more about my work.
+
+- **GitHub:** [https://github.com/jfnh](https://github.com/jfnh)  
+- **Email:** [chafyn@gmail.com](mailto:chafyn@gmail.com)
+---
+
+*Last updated: 10 September 2025*
