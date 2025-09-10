@@ -1,6 +1,10 @@
 # About
 
-Hi, I’m **ChafynH** — translator (DE/ES → EN) moving into technical writing.
+I’m **Chafyn Hörnecke**, an aspiring technical translator and software documentation specialist.
+This portfolio showcases my growing expertise in:
+- Technical writing and user guide creation
+- Software localization and translation workflows
+- Documentation using GitHub and doc-as-code tools
 
 ## What this site is
 A small portfolio of help articles, quick starts, and troubleshooting guides I’ve written to show structure, clarity, and user focus.
