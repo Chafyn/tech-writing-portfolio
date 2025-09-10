@@ -27,9 +27,6 @@ Control terminology across your translations.
 2. Click **Save** to add each pair.
 3. Repeat for all key terms.
 
-!!! tip
-    Use consistent **capitalization** and **singular/plural**. Add both forms if needed (e.g., “glossary” and “glossaries”).
-
 ## 4) Apply the glossary
 
 - Make sure the glossary is **selected/active** when translating.
