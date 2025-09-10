@@ -12,6 +12,7 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.instant
+    - navigation.top          # keeps the nav visible when scrolling
     - toc.integrate
     - content.code.copy
     - content.action.edit
@@ -31,6 +32,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -40,6 +42,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: about.md
+  - Guides:
+      - Installing VLC Media Player: guides/vlc-installation.md
   - Trados — Getting Started:
       - Overview: trados-getting-started/index.md
       - Quick start: trados-getting-started/quick-start.md
@@ -57,5 +61,6 @@ nav:
   - Changelog: changelog.md
 
 docs_dir: docs
+
 plugins:
   - search
