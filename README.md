@@ -1,30 +1,29 @@
 # 📝 Tech Writing Portfolio
 
-**Live site:** [https://ChafynH.github.io/tech-writing-portfolio/](https://ChafynH.github.io/tech-writing-portfolio/)
+[![▶︎ View the Live Portfolio](https://img.shields.io/badge/View%20Portfolio-Visit%20Site-blue)](https://<your-username>.github.io/tech-writing-portfolio/)
 
-Welcome! This repository contains the source files for my **technical writing portfolio**.  
-It showcases examples of my work in **software documentation, user guides, and translation-related documentation**.
-
-The portfolio site is built using **MkDocs** with the **Material for MkDocs** theme.
+> This repository contains the source files for my portfolio website.  
+> For the best experience, **visit the live site** above.
 
 ---
 
-## 📚 Featured Projects
-
-- **[Trados — Getting Started](docs/trados-getting-started/index.md)**  
-  A beginner-friendly guide for setting up and using SDL Trados Studio.  
-
-- **[DeepL — Getting Started](docs/deepl-getting-started/index.md)**  
-  A quick-start guide for translating text and files with DeepL.  
-
-- **[Guide to Installing VLC Media Player](guides/vlc-installation.md)**  
-  Step-by-step user guide for installing VLC Media Player on Windows.  
+## 📚 Featured Guides
+- **Installing VLC Media Player** — live page:  
+  https://<your-username>.github.io/tech-writing-portfolio/guides/vlc-installation/
+- **Trados — Getting Started** — live page:  
+  https://<your-username>.github.io/tech-writing-portfolio/trados-getting-started/
+- **DeepL — Getting Started** — live page:  
+  https://<your-username>.github.io/tech-writing-portfolio/deepl-getting-started/
 
 ---
 
-## ⚙️ Working With This Repository
+<details>
+<summary><strong>Developer notes (source & local preview)</strong></summary>
 
-If you want to preview the portfolio locally, run:
+The site is built with **MkDocs** + **Material for MkDocs**. Source files live in the `docs/` folder.
 
 ```bash
+# local preview
 mkdocs serve
+# publish (if using mkdocs gh-deploy)
+mkdocs gh-deploy --clean
