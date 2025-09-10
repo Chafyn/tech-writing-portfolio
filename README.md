@@ -1,29 +1,32 @@
 # 📝 Tech Writing Portfolio
 
-[![▶︎ View the Live Portfolio](https://img.shields.io/badge/View%20Portfolio-Visit%20Site-blue)](https://<your-username>.github.io/tech-writing-portfolio/)
+➡️ **Visit the live site:** [https://chafyn.github.io/tech-writing-portfolio/](https://chafyn.github.io/tech-writing-portfolio/)
 
-> This repository contains the source files for my portfolio website.  
-> For the best experience, **visit the live site** above.
+Welcome!  
+This repository contains the source files for my **technical writing portfolio**.  
+For the best experience, please view the **[live website](https://chafyn.github.io/tech-writing-portfolio/)** built with **MkDocs** and the **Material for MkDocs** theme.
 
 ---
 
 ## 📚 Featured Guides
-- **Installing VLC Media Player** — live page:  
-  https://<your-username>.github.io/tech-writing-portfolio/guides/vlc-installation/
-- **Trados — Getting Started** — live page:  
-  https://<your-username>.github.io/tech-writing-portfolio/trados-getting-started/
-- **DeepL — Getting Started** — live page:  
-  https://<your-username>.github.io/tech-writing-portfolio/deepl-getting-started/
+
+- [Installing VLC Media Player](https://chafyn.github.io/tech-writing-portfolio/guides/vlc-installation/)  
+  Step-by-step instructions for downloading and installing VLC Media Player on Windows.
+
+- [Trados — Getting Started](https://chafyn.github.io/tech-writing-portfolio/trados-getting-started/)  
+  A beginner-friendly guide for setting up and using SDL Trados Studio.
+
+- [DeepL — Getting Started](https://chafyn.github.io/tech-writing-portfolio/deepl-getting-started/)  
+  A quick-start guide for translating text and files with DeepL.
 
 ---
 
 <details>
-<summary><strong>Developer notes (source & local preview)</strong></summary>
+<summary><strong>🔧 Developer Notes (source & local preview)</strong></summary>
 
-The site is built with **MkDocs** + **Material for MkDocs**. Source files live in the `docs/` folder.
+This site is built with **MkDocs** + **Material for MkDocs**.  
+All source files live in the `docs/` folder.
 
+**Preview locally:**
 ```bash
-# local preview
 mkdocs serve
-# publish (if using mkdocs gh-deploy)
-mkdocs gh-deploy --clean
