@@ -38,11 +38,15 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.tabbed         # ← add this
+  - pymdownx.details        # ← add this (for collapsible "???")
 
 nav:
   - Home: index.md
   - About: about.md
   - Guides:
+      - Installing VLC Media Player: guides/vlc-installation.md
+      - DeepL — Glossaries: deepl-glossaries/index.md
       - Installing VLC Media Player: guides/vlc-installation.md
   - Trados — Getting Started:
       - Overview: trados-getting-started/index.md

@@ -33,17 +33,25 @@
 
 ## Add Entries
 
-You can add terms one by one, or paste a CSV.
+You can add terms in two ways:  
+- **Manually** (best for a few terms)  
+- **Using a file** (best for many terms at once)
 
 === "Add Manually"
     1. Click **Add entry**.  
-    2. Enter **Source term** and **Target term**.  
-    3. Click **Save**.  
+    2. Enter the **Source term** and the **Target term**.  
+    3. (Optional) Add a **Comment** to explain special cases.  
+    4. Click **Save**.
 
-    > **Tip:** Add notes in the **Comment** field for edge cases.
+    !!! tip "When to use this"
+        Use the manual option if you only need to add a handful of terms.
 
-=== "Paste CSV"
-    Paste lines using this format:
+=== "Upload from a File"
+    DeepL also allows you to copy/paste a list of terms from a **CSV file**.
+
+    > **What is a CSV file?**  
+    A CSV is just a simple text file where each line contains information separated by commas.  
+    For example:
 
     ```text
     source_term,target_term,comment
@@ -52,9 +60,10 @@ You can add terms one by one, or paste a CSV.
     translate,übersetzen,verb form
     ```
 
-    !!! warning "CSV rules"
-        - Use **commas** as separators.  
-        - No quotes unless a field contains a comma.
+    !!! tip "When to use this"
+        If you have dozens of terms, create a list in Excel or Google Sheets and **export it as CSV**.  
+        Then copy the lines into DeepL’s import box.
+
 
 <figure>
   <img src="images/add-entries.png" alt="Adding glossary entries in DeepL">
