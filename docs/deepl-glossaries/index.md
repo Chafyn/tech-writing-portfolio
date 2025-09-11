@@ -1,58 +1,59 @@
 # DeepL — Create and Manage Glossaries
 
-> Learn how to create, populate, and use DeepL glossaries for consistent terminology.
-
-!!! note "Who is this for?"
-    Translators and technical writers who need term consistency across projects.
+DeepL glossaries let you create a list of terms that should always be translated in a certain way. This is useful if you want product names, UI labels, or special terminology to stay consistent.
 
 ---
 
 ## Prerequisites
 
-- DeepL account (Free or Pro)
-- Browser access  
-- Optional: API key (for the API example)
+- A DeepL account (Free or Pro)  
+- A web browser  
+- (Optional) A DeepL **API key** if you want to try the advanced automation example
 
 ---
 
-## Create a Glossary
+## Step 1 — Create a Glossary
+
+1. Log in to **DeepL**.  
+2. In the left panel, click **Glossaries**.  
+3. Click **New glossary**.  
+4. Give your glossary a name and choose the language pair (e.g., English → German).  
+5. Click **Create**.
 
 <figure>
   <img src="images/create-glossary.png" alt="DeepL Glossary creation dialog">
   <figcaption>Create a new glossary from DeepL's Glossary panel.</figcaption>
 </figure>
 
-1. Open **DeepL** and go to **Glossaries**.
-2. Click **New glossary** and provide a name and language pair.
-3. Click **Create**.
-
-!!! tip "Naming convention"
-    Use a project prefix (e.g., `ACME_UI_en-de`) to keep glossaries organized.
+!!! tip
+    Use a clear name such as `ProjectName_UI_en-de` so you can easily find it later.
 
 ---
 
-## Add Entries
+## Step 2 — Add Entries
 
-You can add terms in two ways:  
+You can add terms in two ways:
+
 - **Manually** (best for a few terms)  
 - **Using a file** (best for many terms at once)
 
 === "Add Manually"
     1. Click **Add entry**.  
-    2. Enter the **Source term** and the **Target term**.  
-    3. (Optional) Add a **Comment** to explain special cases.  
+    2. Type the **Source term** (the word you want to translate) and the **Target term** (the translation).  
+    3. (Optional) Add a **Comment** for notes.  
     4. Click **Save**.
 
-    !!! tip "When to use this"
-        Use the manual option if you only need to add a handful of terms.
+    !!! tip
+        Choose this option if you only have a handful of terms.
 
 === "Upload from a File"
-    DeepL also allows you to copy/paste a list of terms from a **CSV file**.
+    DeepL also allows you to copy and paste a list of terms from a **CSV file**.
 
     > **What is a CSV file?**  
-    A CSV is just a simple text file where each line contains information separated by commas.  
-    For example:
+    A CSV is a very simple table stored as text, where each line contains values separated by commas.  
+    You can create one in Excel or Google Sheets and **export it as CSV**.
 
+    **CSV format example:**
     ```text
     source_term,target_term,comment
     file,Datei,UI label
@@ -60,36 +61,36 @@ You can add terms in two ways:
     translate,übersetzen,verb form
     ```
 
-    !!! tip "When to use this"
-        If you have dozens of terms, create a list in Excel or Google Sheets and **export it as CSV**.  
-        Then copy the lines into DeepL’s import box.
-
+    !!! tip
+        If you already manage terminology in a spreadsheet, export it as CSV and paste the lines into DeepL’s import box.
 
 <figure>
   <img src="images/add-entries.png" alt="Adding glossary entries in DeepL">
-  <figcaption>Bulk entry via CSV paste saves time for larger term sets.</figcaption>
+  <figcaption>Bulk entry via CSV paste is useful when you have dozens of terms.</figcaption>
 </figure>
 
 ---
 
-## Use the Glossary in Translation
+## Step 3 — Use the Glossary in Translation
 
-- Start a translation as usual.  
-- Select your **Glossary** from the dropdown for the current language pair.  
-- Terms will be replaced automatically according to your entries.
+1. Start a new translation in DeepL as usual.  
+2. Above the translation box, choose your **Glossary** from the dropdown for the current language pair.  
+3. DeepL will automatically apply your preferred terms.
 
-> **Note:** If a term is not replaced, check the exact **case** and **plural** form.
+> If a term doesn’t change as expected, check the spelling, capitalization, or plural form.
 
 ---
 
-## Export / Import (Reference)
+## Step 4 — Export or Import Glossaries
 
-| Action   | Where to click                    | Result                    |
-|---------|-----------------------------------|---------------------------|
-| Export  | Glossary → ••• → **Export CSV**   | Downloads CSV of entries  |
-| Import  | Glossary → **Add entries** → CSV  | Appends entries           |
+You can back up or reuse your glossaries.
 
-Footnote example: Glossary behavior may vary slightly across languages[^1].
+| Action   | How to do it                               | Result                          |
+|----------|--------------------------------------------|---------------------------------|
+| **Export** | Glossary → ••• → **Export CSV**            | Downloads all entries as CSV    |
+| **Import** | Glossary → **Add entries** → Paste CSV     | Adds entries from another file  |
+
+Footnote: Glossary behavior may vary slightly across languages[^1].
 
 [^1]: DeepL occasionally updates glossary handling for specific language pairs.
 
@@ -97,24 +98,51 @@ Footnote example: Glossary behavior may vary slightly across languages[^1].
 
 ## Troubleshooting
 
-??? info "Glossary not visible?"
-    - Confirm the **language pair** matches your document.  
-    - Refresh the page after creating a new glossary.
+??? info "I don’t see my glossary"
+    - Make sure you selected the correct **language pair**.  
+    - Refresh the page if you just created the glossary.
 
-??? failure "CSV import failed"
-    - Ensure **three columns**: source, target, comment (optional but keep column).  
-    - Remove stray semicolons or tabs.
+??? failure "My CSV import failed"
+    - Check that each line has exactly three columns: `source_term, target_term, comment`.  
+    - Remove any semicolons, tabs, or stray spaces.
 
 ---
 
-## Optional: API Example (Advanced)
+## (Optional) Step 5 — Automation with the DeepL API
 
-If you have an API key, you can create a glossary programmatically.
+If you have a DeepL API key, you can create glossaries programmatically.
 
-```bash
-curl https://api-free.deepl.com/v2/glossaries \
-  -H "Authorization: DeepL-Auth-Key YOUR_API_KEY" \
-  -d "name=ACME_UI_en-de" \
-  -d "source_lang=EN" \
-  -d "target_lang=DE" \
-  --data-urlencode "entries=file,Datei\nfolder,Ordner\ntranslate,übersetzen"
+=== "macOS / Linux (bash)"
+    ```bash
+    curl https://api-free.deepl.com/v2/glossaries \
+      -H "Authorization: DeepL-Auth-Key YOUR_API_KEY" \
+      -d "name=ACME_UI_en-de" \
+      -d "source_lang=EN" \
+      -d "target_lang=DE" \
+      --data-urlencode "entries=file,Datei\nfolder,Ordner\ntranslate,übersetzen"
+    ```
+
+=== "Windows PowerShell"
+    ```powershell
+    curl https://api-free.deepl.com/v2/glossaries `
+      -H "Authorization: DeepL-Auth-Key YOUR_API_KEY" `
+      -d "name=ACME_UI_en-de" `
+      -d "source_lang=EN" `
+      -d "target_lang=DE" `
+      --data-urlencode "entries=file,Datei`nfolder,Ordner`ntranslate,übersetzen"
+    ```
+
+=== "Windows CMD"
+    ```bat
+    curl https://api-free.deepl.com/v2/glossaries ^
+      -H "Authorization: DeepL-Auth-Key YOUR_API_KEY" ^
+      -d "name=ACME_UI_en-de" ^
+      -d "source_lang=EN" ^
+      -d "target_lang=DE" ^
+      --data-urlencode "entries=file,Datei!NL!folder,Ordner!NL!translate,übersetzen"
+    ```
+    > Note: CMD doesn’t have a native newline escape; you can paste lines directly, or replace `!NL!` with real newlines when running.
+
+!!! note
+    Make sure the code block ends with a line containing three backticks.  
+    In Markdown, **opening and closing fences must match**, or the renderer will treat the rest of the page as code.

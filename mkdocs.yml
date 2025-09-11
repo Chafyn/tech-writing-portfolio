@@ -45,22 +45,33 @@ nav:
   - Home: index.md
   - About: about.md
   - Guides:
-      - Installing VLC Media Player: guides/vlc-installation.md
-      - DeepL — Glossaries: deepl-glossaries/index.md
-      - Installing VLC Media Player: guides/vlc-installation.md
-  - Trados — Getting Started:
-      - Overview: trados-getting-started/index.md
-      - Quick start: trados-getting-started/quick-start.md
-      - Access help: trados-getting-started/help-guide.md
-      - Create a project: trados-getting-started/how-to-create-project.md
-      - Troubleshooting: trados-getting-started/troubleshooting.md
-      - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
-  - DeepL — Getting Started:
-      - Overview: deepl-getting-started/index.md
-      - Quick start: deepl-getting-started/quick-start.md
-      - Use glossaries: deepl-getting-started/how-to-use-glossaries.md
-      - Troubleshooting: deepl-getting-started/troubleshooting.md
-      - Glossary limits: deepl-getting-started/glossary-limits.md
+    - Overview: guides/index.md
+    - Installing VLC Media Player: guides/vlc-installation.md
+    - DeepL — Getting Started:
+        - Overview: deepl-getting-started/index.md
+        - Quick start: deepl-getting-started/quick-start.md
+        - Use glossaries: deepl-getting-started/how-to-use-glossaries.md
+        - Troubleshooting: deepl-getting-started/troubleshooting.md
+        - Glossary limits: deepl-getting-started/glossary-limits.md
+    - DeepL — Glossaries: deepl-glossaries/index.md
+    - Trados — Getting Started:
+        - Overview: trados-getting-started/index.md
+        - Quick start: trados-getting-started/quick-start.md
+        - Access help: trados-getting-started/help-guide.md
+        - Create a project: trados-getting-started/how-to-create-project.md
+        - Troubleshooting: trados-getting-started/troubleshooting.md
+        - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
+
+  - Localization:
+      - Overview: localization/index.md
+      - VLC Installation (German): localization/vlc-installation-de.md
+
+  - Samples:
+    - Before & After Rewrite: samples/before-after.md
+    - Visual Sample: samples/visual-sample.md
+
+
+   
   - Style guide: style-guide.md
   - Changelog: changelog.md
 
