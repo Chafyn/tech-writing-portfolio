@@ -12,7 +12,7 @@ Control terminology across your translations.
 2. Choose a language pair for the glossary.
 
 <figure markdown>
-  ![DeepL glossary dialog showing term and translation fields](../assets/images/deepl/deepl-glossary-dialog.png){ width="900" }
+  ![DeepL glossary dialog showing term and translation fields](../../assets/images/deepl/deepl-glossary-dialog.png){ width="900" }
   <figcaption><b>Glossary</b> — add terms and translations, then <b>Save</b>.</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Control terminology across your translations.
 
 <!-- Optional screenshot; uncomment when you add it:
 <figure markdown>
-  ![DeepL translation pane showing an active glossary selection](../assets/images/deepl/deepl-glossary-apply.png){ width="900" }
+  ![DeepL translation pane showing an active glossary selection](../../assets/images/deepl/deepl-glossary-apply.png){ width="900" }
   <figcaption><b>Apply glossary</b> — ensure the glossary is selected so terms are enforced.</figcaption>
 </figure>
 -->

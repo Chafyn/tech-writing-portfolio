@@ -13,7 +13,7 @@ Translators who want to quickly find support, tutorials, or solutions while work
    - At the top of the Trados window, click the **Help** tab.  
    - This ribbon is available in all views.
    <figure markdown>
-  ![Help tab open with Knowledge Base, Community and Support options](../assets/images/trados/help-ribbon.png){ width="900" }
+  ![Help tab open with Knowledge Base, Community and Support options](../../assets/images/trados/help-ribbon.png){ width="900" }
   <figcaption><b>Help</b> tab — links out to Knowledge Base, Community, and Support.</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Translators who want to quickly find support, tutorials, or solutions while work
 If your Trados menus are not in English, switch the **User interface language**:
 
 <figure markdown>
-  ![View tab with User interface language dropdown set to English](../assets/images/trados/view-ui-language.png){ width="900" }
+  ![View tab with User interface language dropdown set to English](../../assets/images/trados/view-ui-language.png){ width="900" }
   <figcaption><b>View → User interface language</b> — select <b>English</b>, then restart Trados when prompted.</figcaption>
 </figure>
 

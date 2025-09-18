@@ -12,7 +12,7 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.instant
-    - navigation.top          # keeps the nav visible when scrolling
+    - navigation.top
     - toc.integrate
     - content.code.copy
     - content.action.edit
@@ -38,40 +38,45 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
-  - pymdownx.tabbed         # ← add this
-  - pymdownx.details        # ← add this (for collapsible "???")
+  - pymdownx.tabbed
+  - pymdownx.details
 
 nav:
   - Home: index.md
   - About: about.md
+
   - Guides:
-    - Overview: guides/index.md
-    - Installing VLC Media Player: guides/vlc-installation.md
-    - DeepL — Getting Started:
-        - Overview: deepl-getting-started/index.md
-        - Quick start: deepl-getting-started/quick-start.md
-        - Use glossaries: deepl-getting-started/how-to-use-glossaries.md
-        - Troubleshooting: deepl-getting-started/troubleshooting.md
-        - Glossary limits: deepl-getting-started/glossary-limits.md
-    - DeepL — Glossaries: deepl-glossaries/index.md
-    - Trados — Getting Started:
-        - Overview: trados-getting-started/index.md
-        - Quick start: trados-getting-started/quick-start.md
-        - Access help: trados-getting-started/help-guide.md
-        - Create a project: trados-getting-started/how-to-create-project.md
-        - Troubleshooting: trados-getting-started/troubleshooting.md
-        - Keyboard shortcuts: trados-getting-started/keyboard-shortcuts.md
+      - Overview: guides/index.md
+      - Installing VLC Media Player: guides/vlc-installation.md
+
+      - DeepL — Getting Started:
+          - Overview: guides/deepl-getting-started/index.md
+          - Quick start: guides/deepl-getting-started/quick-start.md
+          - Use glossaries: guides/deepl-getting-started/how-to-use-glossaries.md
+          - Troubleshooting: guides/deepl-getting-started/troubleshooting.md
+          - Glossary limits: guides/deepl-getting-started/glossary-limits.md
+
+      - DeepL — Glossaries: guides/deepl-glossaries/index.md
+
+      - Trados — Getting Started:
+          - Overview: guides/trados-getting-started/index.md
+          - Quick start: guides/trados-getting-started/quick-start.md
+          - Access help: guides/trados-getting-started/help-guide.md
+          - Create a project: guides/trados-getting-started/how-to-create-project.md
+          - Troubleshooting: guides/trados-getting-started/troubleshooting.md
+          - Keyboard shortcuts: guides/trados-getting-started/keyboard-shortcuts.md
+
+      - OmegaT — Getting Started: guides/omegat.md
 
   - Localization:
       - Overview: localization/index.md
       - VLC Installation (German): localization/vlc-installation-de.md
 
   - Samples:
-    - Before & After Rewrite: samples/before-after.md
-    - Visual Sample: samples/visual-sample.md
+      - Rewrite Showcase: samples/before-after.md
+      - Writing Exercises: samples/writing-samples.md
+      - Visual Sample: samples/visual-sample.md
 
-
-   
   - Style guide: style-guide.md
   - Changelog: changelog.md
 

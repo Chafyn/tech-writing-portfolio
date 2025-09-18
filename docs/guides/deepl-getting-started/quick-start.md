@@ -7,7 +7,7 @@ Translate text or files in minutes.
 Go to **DeepL** and sign in (if you have a Pro account).
 
 <figure markdown>
-  ![DeepL home with text box and Translate files button](../assets/images/deepl/deepl-home.png){ width="900" }
+  ![DeepL home with text box and Translate files button](../../assets/images/deepl/deepl-home.png){ width="900" }
   <figcaption>Start by typing text or click <b>Translate files</b> to upload a document.</figcaption>
 </figure>
 

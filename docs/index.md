@@ -11,10 +11,10 @@ It is built with **MkDocs** and the **Material for MkDocs** theme.
 - **[Installing VLC Media Player](guides/vlc-installation.md)**  
   Step-by-step instructions for downloading and installing VLC Media Player on Windows.
 
-- **[Trados — Getting Started](trados-getting-started/index.md)**  
+- **[Trados — Getting Started](guides/trados-getting-started/index.md)**  
   A beginner-friendly guide for setting up and using SDL Trados Studio.
 
-- **[DeepL — Getting Started](deepl-getting-started/index.md)**  
+- **[DeepL — Getting Started](guides/deepl-getting-started/index.md)**  
   A quick-start guide for translating text and files with DeepL.
 
 ---
