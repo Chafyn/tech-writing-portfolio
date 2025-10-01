@@ -65,9 +65,14 @@ nav:
           - Create a project: guides/trados-getting-started/how-to-create-project.md
           - Troubleshooting: guides/trados-getting-started/troubleshooting.md
           - Keyboard shortcuts: guides/trados-getting-started/keyboard-shortcuts.md
+
   - Visual Samples: visuals/index.md
-      
- 
+
+  - API Documentation:
+      - Overview: guides/api-documentation/index.md
+      - OpenWeather API — Getting Started: guides/api-documentation/openweather-api.md
+      - OpenWeather API — 5-Day Forecast: guides/api-documentation/forecast-api.md
+
   - Localization:
       - Overview: localization/index.md
       - VLC Installation (German): localization/vlc-installation-de.md
