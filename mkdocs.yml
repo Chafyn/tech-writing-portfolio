@@ -65,9 +65,9 @@ nav:
           - Create a project: guides/trados-getting-started/how-to-create-project.md
           - Troubleshooting: guides/trados-getting-started/troubleshooting.md
           - Keyboard shortcuts: guides/trados-getting-started/keyboard-shortcuts.md
-
-      - OmegaT — Getting Started: guides/omegat.md
-
+  - Visual Samples: visuals/index.md
+      
+ 
   - Localization:
       - Overview: localization/index.md
       - VLC Installation (German): localization/vlc-installation-de.md
